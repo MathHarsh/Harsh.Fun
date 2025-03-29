@@ -236,7 +236,30 @@ a{
   padding: 10px;
   color: #000;
 }
-
+.website-counter{
+  /* display: flex; */
+  /* justify-content: right; */
+  /* padding-left: 925px; */
+  color: yellow;
+  font-weight: bolder;
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal; 
+}
+.totvi{
+  /* padding-left: 925px; */
+  /* justify-items: right; */
+  /* justify-content: right; */
+  margin-right: 10px;
+  /* text-align: right; */
+  /* right: 10px; */
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal; 
+  color: chartreuse;
+}
 
 
 
