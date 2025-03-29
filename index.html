@@ -147,6 +147,14 @@
     
    </div>
   <!-- </footer> -->
+            <div id="visitor-count"></div>
+        <script>
+        fetch('your-server-script.php') // Replace with your server-side script URL
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('visitor-count').textContent = "Total Visitors: " + data;
+          });
+        </script>
 
 </body>
 </html>
