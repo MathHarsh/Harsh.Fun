@@ -265,6 +265,9 @@ a{
   font-style: normal; 
   color: chartreuse;
 }
+.htc{
+  color: whitesmoke;
+}
 
 .copyRight a:hover{
   color: aquamarine
