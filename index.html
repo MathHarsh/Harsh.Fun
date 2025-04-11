@@ -142,14 +142,16 @@
    <!-- Footer section ends here  -->
     <!-- <footer> -->
    <div class="copyRight">
-      <p class="cprtxt">Copyright &copy; 2024 by HarshTheCoder || All Rights Reserved </p>
+      <p class="cprtxt">Copyright &copy; 2024 by <a href="https://www.canva.com/design/DAGkSjBLwms/MfEFlQnNLKj8OZbfHPTecQ/view?utm_content=DAGkSjBLwms&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf4255e8e18" target="_blank" class="htc">HarshTheCoder</a> || All Rights Reserved </p>
       <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
-       <p class="totvi">Total Visitor:</p>
+      <p class="totvi">Total Visitor:</p>
       <p class="website-counter"></p>
     
    </div>
   <!-- </footer> -->
-        <script>
+      
+       <!-- <button id="reset">Reset</button> -->
+      <script>
         var counterContainer = document.querySelector(".website-counter");
 var resetButton = document.querySelector("#reset");
 var visitCount = localStorage.getItem("page_view");
@@ -170,7 +172,7 @@ resetButton.addEventListener("click", () => {
   localStorage.setItem("page_view", 1);
   counterContainer.innerHTML = visitCount;
 });
-        </script>
 
+      </script>
 </body>
 </html>
